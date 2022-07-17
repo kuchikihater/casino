@@ -153,8 +153,20 @@ body{
     width: 100%;
     max-width: 700px;
     height: 10%;
-    background: rgba(255, 255, 255, 0.2);
+    
+    left: 430px;
+    right: 189px;
+    top: 526px;
+    bottom: 1128px;
+
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    /* #EAE7D6 */
+
+    border: 1px solid #EAE7D6;
+    border-radius: 24px;
    
+    border-style: solid;
     
     display: flex;
     align-items: center;
@@ -165,15 +177,15 @@ body{
     background: transparent;
     flex: 1;
     background:none;
-    border: 0;
+    border: 1px;
     outline: none;
-   
+    
     font-size: 20px;
     color: none;
     
 }
 ::placeholder{
-    color:cac7ff;
+    
 
 }
 .search_bar button img{
@@ -187,4 +199,7 @@ body{
 .searchicon{
     background: none;
     border: 0ch;
+}
+.search_navbar{
+;
 }
