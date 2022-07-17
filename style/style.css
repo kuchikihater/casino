@@ -194,9 +194,8 @@ body{
 
 
 .search_bar button img{
-    width: 20px;
+    width: 2px;
 }
-    
 .search_bar button{
     background-color: none;
     cursor: pointer;
