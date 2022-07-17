@@ -1,0 +1,188 @@
+body{
+    padding: 0;
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+.online_bar{
+    width: 100%;
+    position: fixed;
+}
+.online_div{
+    height: 30px;
+    background-color: #24FFD8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.online_number{
+    width: 125;
+    color: #2A313B;
+    font-size: 12;
+    font-family: 'K2D', sans-serif;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.date_div{
+    display: flex;
+    align-items: center;
+    color: #2A313B;
+    font-size: 12;
+    font-family: 'K2D', sans-serif;
+    font-weight: 400;
+}
+.link1{
+    opacity: 1;
+    padding-right: 11px;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    
+    
+}
+.sidenav{
+    height: 3000px;
+    width: 14.5%;
+    background: #2A313B;
+    z-index:1;
+    position: fixed;
+    
+}
+.LOGOMAIN{
+    width: 60.7%;
+    margin-left: 19.6%;
+    margin-top: 14px;
+}
+.line_bar{
+    opacity: 0.1;
+}
+.casinobutton{
+    display: flex;
+    align-items: center;
+    background: none;
+    border: 0ch;
+    margin-top: 10px;
+    margin-left: 19.6%;
+    align-items: center;
+}
+.casino{
+    opacity: 0.5;
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size:19px;
+    margin-top: 14px;
+    padding-right: 6.8%;
+}
+.sidenav ul{
+    padding-left: 40%;
+    margin-top: -10%;
+}
+.sidenav ul li a{
+    padding-top: 7px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 19px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    height: 20px;
+    
+}
+.sidenav ul li{
+    list-style-type: none;
+    padding-top: 5px;
+}
+.fire{
+    padding-right: 10px;
+    width: 18px;
+    height: 18px;
+    margin-top: -4px;
+}
+.textui{
+    font-size: 16px;
+}
+.language{
+    display: flex;
+    align-items: center;
+    background: none;
+    border: 0ch;
+    margin-top: -15px;
+    margin-left: 19.6%;
+    align-items: center;
+}
+
+.body_div{
+   padding-left: 14.5%;
+   width: 100%;
+   height: 3000px;
+   background-color: #232931 ;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style-type: none;
+    font-size: 18;
+    padding-right: 15px;
+}
+.navbar ul li a{
+    font-size: 18;
+    text-decoration: none;
+    color: #EAE7D6;
+   
+}
+.navbar ul li :hover{
+    color: #24FFD8;
+}
+
+.search_bar{
+    width: 100%;
+    max-width: 700px;
+    height: 10%;
+    background: rgba(255, 255, 255, 0.2);
+   
+    
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    padding: 10px 20px;
+}
+.search_bar input{
+    background: transparent;
+    flex: 1;
+    background:none;
+    border: 0;
+    outline: none;
+   
+    font-size: 20px;
+    color: none;
+    
+}
+::placeholder{
+    color:cac7ff;
+
+}
+.search_bar button img{
+    width: 20px;
+
+}
+.search_bar button{
+    
+    background-color: none;
+  
+    cursor: pointer;
+}
