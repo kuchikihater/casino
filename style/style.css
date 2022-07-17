@@ -181,8 +181,10 @@ body{
 
 }
 .search_bar button{
-    
     background-color: none;
-  
     cursor: pointer;
+}
+.searchicon{
+    background: none;
+    border: 0ch;
 }
