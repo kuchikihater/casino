@@ -125,9 +125,12 @@ body{
    width: 100%;
    height: 3000px;
    background-color: #232931 ;
+   position: fixed;
 }
 .navbar{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
     
 }
@@ -148,18 +151,20 @@ body{
 .navbar ul li :hover{
     color: #24FFD8;
 }
-
+.search_navbar{
+    padding-right: 300px;
+}
 .search_bar{
     width: 100%;
     max-width: 700px;
     height: 10%;
-    background: rgba(255, 255, 255, 0.2);
-   
-    
+    background: none;
     display: flex;
     align-items: center;
     border-radius: 40px;
     padding: 10px 20px;
+    border: 1ch;
+    border: #2A313B;
 }
 .search_bar input{
     background: transparent;
@@ -167,19 +172,31 @@ body{
     background:none;
     border: 0;
     outline: none;
-   
+    border: 1px solid #EAE7D6;
+    opacity: 0.3;
     font-size: 20px;
     color: none;
+    border-radius: 24px 24px 24px 24px;
+    padding-left: 15px;
     
 }
-::placeholder{
-    color:cac7ff;
-
+.search_navbar{
+    background-color: #232931;
 }
+.search_bar input::placeholder{
+    color: #EAE7D6;
+    
+}
+.search_bar input:focus{
+    color: #EAE7D6;
+    
+}
+
+
 .search_bar button img{
     width: 20px;
-
 }
+    
 .search_bar button{
     background-color: none;
     cursor: pointer;
@@ -187,4 +204,6 @@ body{
 .searchicon{
     background: none;
     border: 0ch;
+    margin: 0%;
+    margin-left: -47px;
 }
