@@ -20,7 +20,7 @@ body{
 .online_number{
     width: 125;
     color: #2A313B;
-    font-size: 12;
+    font-size: 4;
     font-family: 'K2D', sans-serif;
     font-weight: 400;
     margin-left: 10px;
@@ -29,9 +29,10 @@ body{
     display: flex;
     align-items: center;
     color: #2A313B;
-    font-size: 12;
+    font-size: 4;
     font-family: 'K2D', sans-serif;
     font-weight: 400;
+    margin-right: 10px;
 }
 .link1{
     opacity: 1;
@@ -52,7 +53,7 @@ body{
     background: #2A313B;
     z-index:1;
     position: fixed;
-    
+    box-shadow: 0 1px;
 }
 .LOGOMAIN{
     width: 60.7%;
@@ -205,4 +206,8 @@ body{
     border: 0ch;
     margin: 0%;
     margin-left: -47px;
+    
+}
+::placeholder{
+    font-size: 24;
 }
