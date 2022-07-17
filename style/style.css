@@ -270,13 +270,33 @@ body{
 .name_switch{
     display:flex;
     justify-content: space-between;
+    align-items: center;
 }
 .l_swtch{
-    display: flex;
+    
     
 }
 .r_swtch{
+    
+}
+.swtchrs{
+    margin-right: 2.2%;
+    
+}
+.mp_games{
     display: flex;
+    margin-left: 2.2%;
+}
+.mp_game{
+    margin-right: 3.35%;
+    color: #EAE7D6;
+}
+.mp_text{
+    margin-top: 5px;
+}
+.mp_text_descp{
+    margin-top: -10px;
+    opacity: 50%;
 }
 .footer{
     padding: 0;
