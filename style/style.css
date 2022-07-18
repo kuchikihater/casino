@@ -147,7 +147,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 85.5%;
+    width: 95%;
     
 }
 .navbar ul{
@@ -168,7 +168,7 @@ body{
     color: #24FFD8;
 }
 .search_navbar{
-    padding-right: 65px;
+  
 }
 .search_bar{
     width: 100%;
@@ -294,7 +294,7 @@ body{
 }
 .all_games_div{
     width: 81vw;
-    height: 100vh;
+    height: 120vh;
     background-color: #2A313B;
     margin-left: 2.2%;
     border-radius: 20px;
@@ -302,14 +302,14 @@ body{
 }
 .ag_dashbar{
     height: 5%;
-    width: 50%;
+    width: 47%;
     background-color: #FFFFFF;
     border-radius: 20px;
   
     margin-left: 22.5%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items:center;
+    justify-content: left;
 }
 .active_dash{
     height: 4vh;
@@ -345,10 +345,65 @@ body{
     margin-left: 2.2%;
     margin-top: 2.2%;
 }
-.all_game_g{
-    width: 10vw;
-    height: 10vh;
-    background-image: url(images/allgames_1p.png);
+.games_srow{
+    display: flex;
+    margin-left: 2.2%;
+    margin-top: 2.2%;
+}
+.games_trow{
+    display: flex;
+    margin-left: 2.2%;
+    margin-top: 2.2%;
+}
+.all_game{
+    max-width: 20vw;
+    border-radius: 50px;
+    padding-right: 2.3%;
+   
+    
+}
+
+.live_stat_div{
+    width: 80vw;
+    height: 50vh;
+   
+    margin-left: 2.2%;
+    
+}
+.stat_dash{
+    width: 25%;
+    height: 5vh;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+}
+.stat_dash ul{
+    display: flex;
+    
+}
+.stat_dash ul li{
+    list-style-type: none;
+    
+    padding-right: 15px;
+    font-weight: bold;
+}
+.stat_dash ul li a{
+   
+    text-decoration: none;
+    color: #000000;
+    font-size: larger;
+   
+}
+.act_ls{
+    width: 15%;
+    height: 4vh;
+    background-color: #24FFD8;
+    border-radius: 20px;
+   
+}
+.live_stat_div{
+    margin-left: 2.2%;
+    width: 95.6%;
+    background-color: #EAE7D6;
 }
 .footer{
     padding: 0;
