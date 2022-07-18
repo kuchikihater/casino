@@ -252,8 +252,10 @@ body{
 .footer{
     padding-bottom: 40px;
 }
+
 .pstr{
     height: 250px;
+    width: 30%;
     margin-left: 2.2%;
 }
 
