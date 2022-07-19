@@ -376,7 +376,6 @@ body{
     width: 27%;
     background-color: #D9D9D9;
     border-radius: 20px;
-    margin-left: 22.5%;
     display: flex;
     align-items:center;
     justify-content: left;
@@ -424,6 +423,7 @@ body{
     border: 0px;
     
 }
+
 .live_stat_div{
     margin-left: 2.2%;
     width: 95.6%;
